@@ -26,7 +26,7 @@ Ontario's emissions were on a gradual decline before 2019. After the carbon tax 
 
 The `time_post` coefficient (change in trend after the policy) was **not statistically significant (p = 0.89)**, meaning the data does not show a detectable shift in Ontario's emissions trajectory that can be attributed to the carbon tax, once the pandemic disruption is accounted for.
 
-This is an important methodological takeaway as much as a substantive one: it highlights how difficult it is to isolate the effect of a single policy from a major concurrent economic shock, and why a "before vs. after" comparison alone can be misleading without modeling the underlying trend and its confounders.
+This highlights how difficult it is to isolate the effect of a single policy from a major concurrent economic shock, and why a "before vs. after" comparison alone can be misleading without modeling the underlying trend and its confounders.
 
 ## Files
 - `carbon_tax_analysis_base.R` — full analysis script (data loading, regression, plotting)
