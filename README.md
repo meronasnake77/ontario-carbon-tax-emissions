@@ -19,10 +19,10 @@ emissions = β0 + β1(time) + β2(post) + β3(time_post) + ε
 - `post`: indicator for 2019 onward (captures an immediate level shift)
 - `time_post`: years since 2019 (captures a change in trend slope after the policy)
 
-A separate regression fit only on 2009–2018 data was also used to generate a counterfactual — what emissions would have looked like if the pre-tax trend had simply continued, with no policy change.
+A separate regression, fit only on 2009–2018 data, was used to generate a counterfactual: a projection of what emissions would have looked like had the pre-tax trend simply continued with no policy change.
 
 ## Key Finding
-Ontario's emissions were on a gradual decline before 2019. After the carbon tax began, emissions temporarily fell well below the pre-tax trend line — but this coincides almost exactly with COVID-19 lockdowns (2020–2021), not the tax itself. By 2023, emissions had returned close to where the pre-tax trend alone would have predicted.
+Ontario's emissions were on a gradual decline before 2019. After the carbon tax began, emissions temporarily fell well below the pre-tax trend line, but this coincides almost exactly with COVID-19 lockdowns (2020–2021), not the tax itself. By 2023, emissions had returned close to where the pre-tax trend alone would have predicted.
 
 The `time_post` coefficient (change in trend after the policy) was **not statistically significant (p = 0.89)**, meaning the data does not show a detectable shift in Ontario's emissions trajectory that can be attributed to the carbon tax, once the pandemic disruption is accounted for.
 
@@ -34,7 +34,7 @@ This is an important methodological takeaway as much as a substantive one: it hi
 - `ontario_emissions_its_plot.png` — output plot: actual emissions vs. pre-tax trend extrapolation
 
 ## Tools
-R (base R only — no external packages required)
+R (base R only, no external packages required)
 
 ## Limitations
 - Uses province-level aggregate emissions; sector-level or per-capita analysis could reveal effects masked at the aggregate level
